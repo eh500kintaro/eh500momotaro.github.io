@@ -411,15 +411,7 @@ transition: all 0.3s;
 
 
 /* --------------------------------------------------- */
-@media screen and (max-width:767px) {
-    body{
-    line-height: 1.0;
-    font-size: 1em;
-    font-family:
-     "游ゴシック LIGHT","LINE Seed JP_TTF", sans-serif;
-     font-weight: lighter;
-    color: black;
-    
+@media screen and (max-width:767px) {   
     /* header */
 
     header .ue .rogo img{
