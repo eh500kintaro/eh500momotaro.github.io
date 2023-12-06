@@ -240,7 +240,9 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     margin: 0 16vw 0 22vw;
+
 }
 
 .text1 p{
@@ -513,6 +515,10 @@ transition: all 0.3s;
         font-weight: lighter;
     }
 
+    .tate img{
+        margin: 0 0 2em 0;
+    }
+
     .tate .image img{
         width: 40px;
     }
@@ -540,7 +546,7 @@ transition: all 0.3s;
 
     /* 二個目 */
     .pro1{
-        margin: 4em 0 2em 0;
+        margin: 6em 0 2em 0;
     }
 
     .pro1 h2{
@@ -560,13 +566,17 @@ transition: all 0.3s;
         width: 40px;
     }
 
+    .tate2 img{
+        margin: 0 0 2em 0;
+    }
+
     footer .yoko ul{
         margin: 1em 10vw 0 0;
     }
 
     /* 三個目 */
     .pro2{
-        margin: 4em 0 2em 0;
+        margin: 6em 0 2em 0;
     }
 
     .pro2 h2{
@@ -585,13 +595,17 @@ transition: all 0.3s;
         justify-content: center;
     }
 
+    .tate3 img{
+        margin: 0 0 2em 0;
+    }
+
 
 
     /* gallery */
 
     /* 一段目 */
     .pro3{
-        margin: 4em 0 2em 0;
+        margin: 6em 0 2em 0;
     }
 
     .first{
@@ -630,4 +644,3 @@ transition: all 0.3s;
     }
 
 }
-
