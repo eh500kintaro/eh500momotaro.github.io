@@ -240,7 +240,8 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 vw 0 22vw;
+
+    margin: 0 16vw 0 22vw;
 
 }
 
@@ -278,7 +279,7 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 20vw 0 22vw;
+    margin: 0 19vw 0 22vw;
 }
 
 .text2 p{
@@ -436,9 +437,8 @@ transition: all 0.3s;
     }
 
     .sub2 img{
-        width: 100%;
         margin: 2em 0 2em 0;
-
+        width: 100%;
     }
 
     .ue{
@@ -447,7 +447,7 @@ transition: all 0.3s;
 
     .SNS{
         text-align: center;
-        margin: 0 0 1em 80vw;
+        margin: 0 0 2em 80vw;
     }
 
 
@@ -484,8 +484,9 @@ transition: all 0.3s;
     /* main */
     body{
         line-height: 1.0;
+        font-size: 1em;
         font-family:
-         "游ゴシック LIGHT","LINE Seed JP_TTF","游ゴシック", YuGothic, "メイリオ", Meiryo,　"ヒラギノ角ゴ ProN W3",sans-serif;
+         "游ゴシック LIGHT","LINE Seed JP_TTF", sans-serif;
          font-weight: lighter;
         color: black;
     }
@@ -629,5 +630,6 @@ transition: all 0.3s;
     .ziko2{
         width: 250px;
     }
+
 }
 
