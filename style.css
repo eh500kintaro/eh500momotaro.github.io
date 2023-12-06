@@ -482,9 +482,8 @@ transition: all 0.3s;
     /* main */
     body{
         line-height: 1.0;
-        font-size: 1em;
         font-family:
-         "游ゴシック LIGHT","LINE Seed JP_TTF", sans-serif;
+         "游ゴシック LIGHT","LINE Seed JP_TTF","ヒラギノ角ゴ ProN W3",sans-serif;
          font-weight: lighter;
         color: black;
     }
@@ -498,7 +497,7 @@ transition: all 0.3s;
 
     /* 一個目 */
     .pro{
-        margin: 2em 0 2em 0;
+        margin: 4em 0 2em 0;
     }
 
     .proflex{
