@@ -240,7 +240,7 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 10vw 0 22vw;
+    margin: 0 vw 0 22vw;
 
 }
 
@@ -411,11 +411,28 @@ transition: all 0.3s;
 
 
 /* --------------------------------------------------- */
-@media screen and (max-width:767px) {   
+@media screen and (max-width:767px) {
     /* header */
 
+    /* header {
+        text-align: center;
+    } */
+
     header .ue .rogo img{
-        width: 100%;
+        width: 65%;
+        margin: 0 0 0 15vw;
+    }
+
+    header .nav ul{
+        gap: 1em;
+    }
+
+    header .nav ul li{
+        font-size:16px;
+    }
+
+    .nav ul li {
+        margin: 0 auto;
     }
 
     .sub2 img{
@@ -427,11 +444,13 @@ transition: all 0.3s;
     }
 
     .SNS{
-        margin: 0 0 1em 81vw;
+        text-align: center;
+        margin: 0 0 1em 80vw;
     }
 
+
     .ue .instagram{
-        margin: 0;
+        margin: 0 0.5em 0 0;
     }
 
     .ue .maillogo{
@@ -453,71 +472,117 @@ transition: all 0.3s;
 
     .mozimozi {
         writing-mode:vertical-rl;
-        font-size: 4vw;
+        font-size: 3.5vw;
         position: absolute;
-        top: 24%;
-        right: 59%;
+        top: 28%;
+        right: 62%;
     }
 
 
     /* main */
+    body{
+        line-height: 1.0;
+        font-size: 1em;
+        font-family:
+         "游ゴシック LIGHT","LINE Seed JP_TTF", sans-serif;
+         font-weight: lighter;
+        color: black;
+    }
+    
+
+
+    body{
+        font-size: 14px;
+    }
+    
 
     /* 一個目 */
+    .pro{
+        margin: 2em 0 2em 0;
+    }
+
     .proflex{
         display: block;
         flex-wrap: wrap;
-        text-align: center;
         margin: 0;
+        text-align: center;
+    }
+
+    .pro h2{
+        margin: 0 0 1em 0;
+        font-weight: lighter;
     }
 
     .tate .image img{
-        width: 80px;
-    }
-
-
-    .text1 p{
-        margin: 1em 0 2em 0;
-        text-align: center;
+        width: 40px;
     }
 
     /* footer */
-    .rogo21{
+    /* .rogo21{
+        width:200px ;
         display: flex ;
         margin: 0 0 0 50px;
+    } */
+
+    .rogo21{
+        display: none;
     }
 
-    /* 二個目 */
-    .proflex1{
-        display: block;
-        text-align: center;
-        margin: 0;
-    }
-
-    .tate2 .image1 img{
-        width: 80px;
-    }
-
-    .text p{
-        margin: 1em 0 2em 0;
-        text-align: center;
-    }
-
-    /* 三個目 */
-    .proflex2{
-        display: block;
-        text-align: center;
-        margin: 0;
-    }
-
-    .tate3 .image2 img{
-        width: 80px;
+    .yoko{
+        display: flex;
         justify-content: center;
     }
 
-    .text2 p{
-        font-size: 14px;
-        margin: 1em 0 2em 0;
+    footer ul li{
+        margin: 1em 0 0 0 ;
+    }
+
+
+    /* 二個目 */
+    .pro1{
+        margin: 4em 0 2em 0;
+    }
+
+    .pro1 h2{
+        margin: 0 0 1em 0;
+        font-weight: lighter;
+    }
+
+
+    .proflex1{
+        display: block;
+        margin: 0;
+        justify-content: center;
         text-align: center;
+    }
+
+    .tate2 .image1 img{
+        width: 40px;
+    }
+
+    footer .yoko ul{
+        margin: 1em 10vw 0 0;
+    }
+
+    /* 三個目 */
+    .pro2{
+        margin: 4em 0 2em 0;
+    }
+
+    .pro2 h2{
+        margin: 0 0 1em 0;
+        font-weight: lighter;
+    }
+
+    .proflex2{
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    .tate3 .image2 img{
+        width: 40px;
+        justify-content: center;
     }
 
 
@@ -525,6 +590,10 @@ transition: all 0.3s;
     /* gallery */
 
     /* 一段目 */
+    .pro3{
+        margin: 4em 0 2em 0;
+    }
+
     .first{
         display: flex;
         flex-wrap: wrap;
@@ -559,12 +628,5 @@ transition: all 0.3s;
     .ziko2{
         width: 250px;
     }
-
-
-
-    /* header */
-    header nav ul{
-        font-size: 16px;
-    }
-
 }
+
