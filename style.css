@@ -483,7 +483,7 @@ transition: all 0.3s;
     body{
         line-height: 1.0;
         font-family:
-         "游ゴシック LIGHT","LINE Seed JP_TTF","ヒラギノ角ゴ ProN W3",sans-serif;
+         "游ゴシック LIGHT","LINE Seed JP_TTF","游ゴシック", YuGothic, "メイリオ", Meiryo,　"ヒラギノ角ゴ ProN W3",sans-serif;
          font-weight: lighter;
         color: black;
     }
