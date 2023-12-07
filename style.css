@@ -429,7 +429,6 @@ transition: all 0.3s;
     }
 
     header .nav ul li{
-        font-family: Roboto;
         font-size:16px;
         font-weight: bold;
     }
@@ -488,7 +487,7 @@ transition: all 0.3s;
         line-height: 1.0;
         font-size: 1em;
         font-family:
-         "游ゴシック LIGHT","LINE Seed JP_TTF", sans-serif;
+         "游ゴシック LIGHT","LINE Seed JP_TTF","Lato Hairline", "Work Sans",sans-serif;
          font-weight: lighter;
         color: black;
     }
@@ -542,7 +541,6 @@ transition: all 0.3s;
         margin: 1em 0 0 0 ;
         font-size: 16px;
         font-weight: bold;
-        font-family: Roboto;
     }
 
 
