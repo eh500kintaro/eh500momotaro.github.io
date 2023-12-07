@@ -3,7 +3,7 @@ body{
     line-height: 1.0;
     font-size: 1em;
     font-family:
-     "游ゴシック LIGHT","LINE Seed JP_TTF", sans-serif;
+     "游ゴシック LIGHT","LINE Seed JP_TTF", "Lato Hairline", "Work Sans",sans-serif;
      font-weight: lighter;
     color: black;
 }
@@ -201,7 +201,7 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 16vw 0 22vw;
+    margin: 0 14vw 0 22vw;
 }
 
 .tate p{
@@ -209,7 +209,7 @@ h3{
 }
 
 .text p{
-    margin: 0 0 2em 0;
+    margin: 1em 0 2em 0;
 }
 
 /* 二個目 */
@@ -279,11 +279,11 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 19vw 0 22vw;
+    margin: 0 13vw 0 22vw;
 }
 
 .text2 p{
-    margin: 1em 0 2em 0;
+    margin: 2em 0 2em 0;
 }
 
 /* portfolio */
@@ -429,7 +429,9 @@ transition: all 0.3s;
     }
 
     header .nav ul li{
+        font-family: Roboto;
         font-size:16px;
+        font-weight: bold;
     }
 
     .nav ul li {
@@ -524,13 +526,10 @@ transition: all 0.3s;
     }
 
     /* footer */
-    /* .rogo21{
-        width:200px ;
-        display: flex ;
-        margin: 0 0 0 50px;
-    } */
-
     .rogo21{
+        /* width:200px ;
+        display: flex ;
+        margin: 0 0 0 50px; */
         display: none;
     }
 
@@ -541,6 +540,9 @@ transition: all 0.3s;
 
     footer ul li{
         margin: 1em 0 0 0 ;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Roboto;
     }
 
 
