@@ -487,7 +487,7 @@ transition: all 0.3s;
         line-height: 1.0;
         font-size: 1em;
         font-family:
-         "游ゴシック LIGHT","LINE Seed JP_TTF","Lato Hairline", "Work Sans",sans-serif;
+         "游ゴシック LIGHT","LINE Seed JP_TTF",Raleway,"Lato Thin100", "Work Sans",sans-serif;
          font-weight: lighter;
         color: black;
     }
